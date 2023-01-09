@@ -1,9 +1,17 @@
-question1 = input("Floats in water? (Y/N)")
-if question1 =="Y"
-  print("Fake")
+print ("DIAMOND EXPERT SYSTEM")
+q_1 = input ("Does it float in water? (Y/N) ")
+if q_1 == "Y" :
+    print ("Fake")
 else:
-    question2 = input("Can scratch glass (Y/N)")
-    if question2 == "N"
-    print("Fake")
-    else: "Y"
-    print("could be real")
+    q_2 = input ("Does it scratch glass? (Y/N) ")
+    if q_2 == "N" :
+        print ("Fake")
+    else :
+     q_3 = input ("Does it conduct electricity? (Y/N)")
+    if q_3 == "Y" :
+        print ("Fake")
+    else:
+        print ("could be real")
+
+
+
